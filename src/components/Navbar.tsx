@@ -128,7 +128,7 @@ const Navbar = () => {
             />
           </svg>
 
-          <p className="text-white text-[.9rem] font-thin ">Sign in</p>
+          <p className="text-white text-[.8vw] font-medium ">Sign in</p>
         </div>
 
         <div className="  w-[70px] h-[27px] flex items-center justify-center p-[.5px] rounded-[8px]  bg-[#F47820] hover:cursor-pointer ">
