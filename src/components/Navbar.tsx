@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#EEEEEE] flex  gap-[12%] items-center px-[80px] font-[poppins] static pt-[30px] pb-[13px]">
+    <div className="bg-[#EEEEEE] flex  gap-[12%] items-center px-[80px] font-[poppins] sticky top-0 pt-[30px] pb-[13px] z-10">
       <div className=" w-[17%]">
         <svg
           width="212"
@@ -128,7 +128,7 @@ const Navbar = () => {
             />
           </svg>
 
-          <p className="text-white text-[.9rem]  ">Sign in</p>
+          <p className="text-white text-[.9rem] font-thin ">Sign in</p>
         </div>
 
         <div className="  w-[70px] h-[27px] flex items-center justify-center p-[.5px] rounded-[8px]  bg-[#F47820] hover:cursor-pointer ">

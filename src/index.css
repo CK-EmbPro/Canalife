@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .getStarted {
+    z-index: 0;
+    backdrop-filter: blur(0px);
+    background: linear-gradient(
+      90deg,
+
+      rgba(255, 162, 96, 0.8) 10%,   /* Use rgba with alpha (0.8 is 80% opaque) */
+      rgba(251, 224, 205, 0.5) 100%,  /* Use rgba with alpha (0.8 is 80% opaque) */
+      rgba(253, 253, 253, 0.5) 80%    /* Use rgba with alpha (0.6 is 60% opaque) */
+      /* #ffa260 10%,
+      #FBE0CD 100%,
+      #FDFDFD 80% */
+    );
+
+    border-radius: 20px;
+    height: 180px;
+    width: 375px;
+
+
+  }
+}
