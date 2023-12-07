@@ -35,6 +35,7 @@ const Ordering = () => {
 
             <div>
                 <p>We are  delighted to let you know</p>
+                <p>I m ck</p>
                 <div className="w-[40px] h-[40px]" style={{backgroundImage: `url(${Provinces})`}}>
                 </div>
             </div>
