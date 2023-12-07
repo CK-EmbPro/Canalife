@@ -4,6 +4,7 @@ import First from "../assets/svg/topcategories/pngs/1.png";
 import Second from "../assets/svg/topcategories/pngs/2.png";
 import Third from "../assets/svg/topcategories/pngs/3.png";
 import Fourth from "../assets/svg/topcategories/pngs/4.png";
+import Shopnow from "./Shopnow";
 
 const TopCategories = () => {
   const TopCategBgStyles = {
@@ -320,11 +321,8 @@ const TopCategories = () => {
           </div>
         </div>
 
-        
         {/* THe quoted image */}
       </div>
-
-      
 
       {/* Top categories */}
       <div className="">
@@ -333,62 +331,51 @@ const TopCategories = () => {
         </p>
 
         <div className="bg-white py-[40px] px-[32px] flex justify-between h-[70vh] m-[80px] rounded-[20px] ">
-            <div className="h-full w-[21%] bg-[#FFDAC0]  flex flex-col items-center gap-4 rounded-[23px] relative">
-            <div className="h-full w-[full] bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px]">
-                <img className="" src={First} alt="no-img" />
-                <p className="text-[1.5vw] font-bold leading-[26px] text-center text-[#F47820]">Dried Magic Mushrooms</p>
+          <div className="h-full w-[21%] bg-[#FFDAC0]  flex flex-col items-center gap-4 rounded-[23px] relative">
+            <div className="h-full w-[full] bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px] topCategShowShopNow">
+              <img className="" src={First} alt="no-img" />
+              <p className="text-[1.5vw] font-bold leading-[26px] text-center text-[#F47820]">
+                Dried Magic Mushrooms
+              </p>
             </div>
 
-            <div className="absolute h-full w-full rounded-[20px] flex items-center justify-center shopNowTransition hidden">
-                <button className="border-[2.3px] border-white w-[65%] p-[10px] rounded-[15px] ">
-                    Shop now
-                </button>
+            <Shopnow/>
+          </div>
+
+          <div className="h-full w-[21%] bg-[#FFDAC0]  flex flex-col items-center gap-4 rounded-[23px] relative">
+            <div className="h-full w-full bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px] topCategShowShopNow">
+              <img className="" src={Second} alt="no-img" />
+              <p className="text-[1.5vw] font-bold leading-[26px] text-center text-[#F47820]">
+                Shrom Edibles
+              </p>
             </div>
+            
+            <Shopnow/>
+          </div>
+
+          <div className="h-full w-[21%] bg-[#FFDAC0]  flex flex-col items-center gap-4 rounded-[23px] relative">
+            <div className="h-full w-full bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px] topCategShowShopNow">
+              <img className="" src={Third} alt="no-img" />
+              <p className="text-[1.5vw] font-bold leading-[26px] text-center text-[#F47820]">
+                Magic Mushrooms Tea
+              </p>
             </div>
 
+            <Shopnow/>
+          </div>
 
-            <div className="h-full w-[21%] bg-[#FFDAC0]  flex flex-col items-center gap-4 rounded-[23px] relative" >
-            <div className="h-full w-full bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px]">
-                <img className="" src={Second} alt="no-img" />      
-                <p className="text-[1.5vw] font-bold leading-[26px] text-center text-[#F47820]">Shrom Edibles</p>
-            </div>
-
-            <div className="border border-black absolute h-full w-full rounded-[20px] flex items-center justify-center shopNowTransition hidden">
-                <button className="border-[2.3px] border-white w-[65%] p-[10px] rounded-[15px] ">
-                    Shop now
-                </button>
-            </div>
+          <div className="h-full w-[21%] bg-[#FFDAC0]  flex flex-col items-center gap-4 rounded-[23px] relative">
+            <div className="h-full w-full bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px] topCategShowShopNow">
+              <img className="" src={Fourth} alt="no-img" />
+              <p className="text-[1.5vw] font-bold leading-[26px] text-center text-[#F47820]">
+                Macrodosing capsules
+              </p>
             </div>
 
-            <div className="h-full w-[21%] bg-[#FFDAC0]  flex flex-col items-center gap-4 rounded-[23px] relative">
-            <div className="h-full w-full bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px]">
-                <img className="" src={Third} alt="no-img" />
-                <p className="text-[1.5vw] font-bold leading-[26px] text-center text-[#F47820]">Magic Mushrooms Tea</p>
-            </div>
-
-            <div className="border border-black absolute h-full w-full rounded-[20px] flex items-center justify-center shopNowTransition hidden">
-                <button className="border-[2.3px] border-white w-[65%] p-[10px] rounded-[15px] ">
-                    Shop now
-                </button>
-            </div>
-            </div>
-
-
-            <div className="h-full w-[21%] bg-[#FFDAC0]  flex flex-col items-center gap-4 rounded-[23px] relative">    
-            <div className="h-full w-full bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px]">
-                <img className="" src={Fourth} alt="no-img" />
-                <p className="text-[1.5vw] font-bold leading-[26px] text-center text-[#F47820]">Macrodosing capsules</p>
-            </div>
-
-            <div className="border border-black absolute h-full w-full rounded-[20px] flex items-center justify-center shopNowTransition hidden">
-                <button className="border-[2.3px] border-white w-[65%] p-[10px] rounded-[15px] ">
-                    Shop now
-                </button>
-            </div>
-            </div>
+            <Shopnow/>
+          </div>
         </div>
       </div>
-     
     </div>
   );
 };

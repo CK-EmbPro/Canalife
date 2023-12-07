@@ -34,4 +34,15 @@
         
     );
   }
+
+  .topCategShowShopNow:hover~div{
+    display: flex;
+    
+    transition: 
+  }
+
+  .loremBoxShadow{
+    box-shadow: 4px 10px 1px 10px rgba(238,238,238,.7);
+  }
+
 }
