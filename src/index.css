@@ -25,6 +25,7 @@
   }
 
   .shopNowTransition{
+    transition: all 2s ease-in-out;
     background: linear-gradient(
         180deg,
 
@@ -35,14 +36,157 @@
     );
   }
 
-  .topCategShowShopNow:hover~div{
-    display: flex;
+  @keyframes topCategAnim {
+    0%{
+      opacity:0;
+    }
+    100%{
+      opacity: 1;
+      display: flex;
+    }
     
-    transition: 
   }
 
-  .loremBoxShadow{
-    box-shadow: 4px 10px 1px 10px rgba(238,238,238,.7);
+  @keyframes topCategAnimNoHover {
+    0%{
+      opacity:1;
+    }
+    100%{
+      opacity: 0;
+
+    }
+    
   }
+
+  .topCategShowShopNow+div{
+    transition: all 2s ease-in-out;
+    animation: topCategAnimNoHover 2s linear 1 alternate-reverse;
+    
+  }
+
+  .topCategShowShopNow:hover+div{
+    display: flex;
+    transition: all 2s ease-in-out;
+    animation: topCategAnim 2s linear infinite alternate;
+    background-color: black;
+    
+
+  }
+
+ 
+
+  /* Perk card animation and transition */
+  @keyframes perkCardAnimationHover {
+    0%{
+    opacity: 0;
+    }
+    
+    100%{
+    opacity: 1;
+    }
+    
+  }
+
+
+  @keyframes perkCardAnimationNoHover {
+    0%{
+    opacity: 1;
+    }
+    
+    100%{
+    opacity: 0;
+    }
+    
+  }
+
+
+  @keyframes forContinuingBtn {
+    0%{
+      opacity: 1;
+      
+    }
+    100%{
+      opacity: 0;
+      
+    }
+  }
+  
+
+
+
+  .perkCardTransition div:nth-child(2) img{
+    transition: all 1s ease-in-out;
+  }
+
+  .perkCardTransition:hover div:nth-child(2) img{
+   
+    /* transform: scale(1.4); */
+    transform: perspective(10px) translateY(-4px) ;
+    scale: 1.2;
+    
+    
+   
+  }
+
+
+  .perkCardTransition div:nth-child(1){
+    transition: all 1s ease-in-out;
+    animation: perkCardAnimationNoHover 1s linear 1 alternate;
+    opacity: 0;
+
+    
+    
+  }
+
+  
+  .perkCardTransition:hover div:nth-child(1){
+   
+    transition: all 1s ease-in-out;
+    animation: perkCardAnimationHover 1s linear 1 alternate;
+    opacity: 1;
+    
+  }
+
+  .perkCardTransition div:nth-child(3){
+    transition: all 1s ease-in-out;
+    animation: perkCardAnimationNoHover 1s linear 1 alternate;
+    opacity: 0;
+    
+    
+  }
+  .perkCardTransition:hover div:nth-child(3){
+   
+    transition: all 1s ease-in-out;
+    animation: perkCardAnimationHover 1s linear 1 alternate;
+    opacity: 1;
+    
+  }
+
+
+  .forContinueBtn>div+button{
+    transition: all 1s ease-in-out;
+    animation: perkCardAnimationHover 1s linear 1 alternate;
+    opacity: 0;
+    
+  }
+
+  .forContinueBtn>div:hover+button, .forContinueBtn>button:hover {
+    transition: all 1s ease-in-out;
+    opacity: 1;
+    animation: perkCardAnimationHover 1s linear 1 alternate-reverse ;
+  }
+
+
+  .linearBg{
+    background: linear-gradient(
+      90deg,
+     rgba(0,0,0,1),
+     rgba(244, 120, 32, .6) 250%
+    );
+  }
+
+  /* Perk card animation and transition */
+
 
 }
+

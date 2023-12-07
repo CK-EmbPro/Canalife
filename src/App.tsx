@@ -1,6 +1,7 @@
 import React from 'react'
 import GettingKnowUs from './components/GettingKnowUs'
 import Navbar from './components/Navbar'
+import Ordering from './components/Ordering'
 import TopCategories from './components/TopCategories'
 import TopPerks from './components/TopPerks'
 
@@ -11,6 +12,7 @@ const App = () => {
       <TopCategories />
       <GettingKnowUs/>
       <TopPerks/>
+      <Ordering/>
     </div>
   )
 }

@@ -136,7 +136,9 @@ const GettingKnowUs = () => {
         </div>
       </div>
 
-      <div className="bg-[#EEEEEE]  mb-[30px] h-[70vh]  flex flex-col  justify-center gap-[40px] w-[82%] rounded-[20px] absolute left-[7vw] top-[745px]"> 
+      <div className="h-[400px] relative">
+      <div className="bg-[#EEEEEE]  mb-[30px] h-[70vh]  flex flex-col  justify-center gap-[40px] w-[82%] rounded-[20px] absolute left-[7vw] bottom-[-21px]"> 
+
 
         <div className="w-[80px] h-[80px] absolute top-[250px] left-[63.4em] hover:cursor-pointer rounded-[100px]" style={{
           background: `url(${RightCart})`,
@@ -168,6 +170,7 @@ const GettingKnowUs = () => {
         </div>
         </div>
 
+      </div>
       </div>
 
     </div>
