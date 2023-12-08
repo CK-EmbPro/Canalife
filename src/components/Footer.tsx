@@ -76,10 +76,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex justify-center pt-[2em] border-t-[1px] gap-[11vw] border-t-[#aeaeae] w-[86%]">
+      <div className="flex justify-center items-center pt-[2em] border-t-[1px] gap-[11vw] border-t-[#aeaeae] w-[86%]">
         <p className="ms-[-2vw]">Copyright @2023 Three Amigos</p>
 
-        <div className="flex gap-[2em]">
+        <div className="flex gap-[2em] items-center">
           <p className="text-[#969696]">Terms & Conditions</p>
           <hr className="border border-[#6e6e6e] h-[90%]" />
           <p className="text-[#969696]">Privacy Policy</p>
