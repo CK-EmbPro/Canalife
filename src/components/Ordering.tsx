@@ -11,7 +11,7 @@ const Ordering = () => {
         </div>
 
         <div className="flex justify-center gap-[5em] h-[460px] mb-10 ">
-          <div className="flex flex-col gap-[20px] rounded-[20px] bg-white shadow-[2px_2px_20px_10px_rgba(0,0,0,.1)] w-[40%] h-full items-center ">
+          <div className="flex flex-col gap-[20px] rounded-[20px] bg-white shadow-[2px_2px_40px_2px_rgba(0,0,0,.1)] w-[40%] h-full items-center ">
             <p className="font-medium text-[19px] mt-[8px]">
               We aim to provide The Best Customer Experience
             </p>
@@ -50,7 +50,7 @@ const Ordering = () => {
             </div>
           </div>
 
-          <div className=" flex relative flex-col gap-[20px] rounded-[20px] bg-[#FFDAC0] shadow-[2px_2px_20px_10px_rgba(0,0,0,.1)] w-[40%] h-full  justify-center ps-[5.5vw]">
+          <div className=" flex relative flex-col gap-[20px] rounded-[20px] bg-[#FFDAC0] shadow-[2px_2px_40px_2px_rgba(0,0,0,.1)] w-[40%] h-full  justify-center ps-[5.5vw]">
             <p className="pe-[10px] font-bold text-[20px]">We are delighted to let you know</p>
 
             <div className=" w-[85%] rounded-[20px] bg-[rgba(244,120,32)]  h-[65%] flex items-center">
@@ -66,7 +66,7 @@ const Ordering = () => {
         </div>
       </div>
 
-      <div className="flex w-[80%] items-center p-[2em] rounded-[20px] gap-[8em] justify-center shadow-[2px_2px_20px_10px_rgba(0,0,0,.1)] ">
+      <div className="flex w-[80%] items-center p-[2em] rounded-[20px] gap-[8em] justify-center shadow-[2px_2px_40px_2px_rgba(0,0,0,.1)] ">
 
         <div className="">
           <p className="text-[1.9em] font-extrabold">Subscribing to our newsletters</p>

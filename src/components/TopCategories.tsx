@@ -332,18 +332,18 @@ const TopCategories = () => {
 
         <div className="bg-white py-[40px] px-[32px] flex justify-between h-[70vh] m-[80px] rounded-[20px] ">
           <div className="h-full w-[21%] bg-[#FFDAC0]  flex flex-col items-center gap-4 rounded-[23px] relative">
-            <div className="h-full w-[full] bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px] topCategShowShopNow">
+            <div className="h-full w-[full] bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px] ">
               <img className="" src={First} alt="no-img" />
               <p className="text-[1.5vw] font-bold leading-[26px] text-center text-[#F47820]">
                 Dried Magic Mushrooms
               </p>
             </div>
 
-            <Shopnow/>
+              <Shopnow/>
           </div>
 
           <div className="h-full w-[21%] bg-[#FFDAC0]  flex flex-col items-center gap-4 rounded-[23px] relative">
-            <div className="h-full w-full bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px] topCategShowShopNow">
+            <div className="h-full w-full bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px] ">
               <img className="" src={Second} alt="no-img" />
               <p className="text-[1.5vw] font-bold leading-[26px] text-center text-[#F47820]">
                 Shrom Edibles
@@ -354,7 +354,7 @@ const TopCategories = () => {
           </div>
 
           <div className="h-full w-[21%] bg-[#FFDAC0]  flex flex-col items-center gap-4 rounded-[23px] relative">
-            <div className="h-full w-full bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px] topCategShowShopNow">
+            <div className="h-full w-full bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px] ">
               <img className="" src={Third} alt="no-img" />
               <p className="text-[1.5vw] font-bold leading-[26px] text-center text-[#F47820]">
                 Magic Mushrooms Tea
@@ -365,7 +365,7 @@ const TopCategories = () => {
           </div>
 
           <div className="h-full w-[21%] bg-[#FFDAC0]  flex flex-col items-center gap-4 rounded-[23px] relative">
-            <div className="h-full w-full bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px] topCategShowShopNow">
+            <div className="h-full w-full bg-[#FFDAC0] p-[16px] flex flex-col items-center gap-4 rounded-[23px] ">
               <img className="" src={Fourth} alt="no-img" />
               <p className="text-[1.5vw] font-bold leading-[26px] text-center text-[#F47820]">
                 Macrodosing capsules

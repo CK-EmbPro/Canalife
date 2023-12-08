@@ -25,7 +25,7 @@
   }
 
   .shopNowTransition{
-    transition: all 2s ease-in-out;
+    /* transition: all 2s ease-in-out; */
     background: linear-gradient(
         180deg,
 
@@ -36,70 +36,63 @@
     );
   }
 
-  @keyframes topCategAnim {
-    0%{
-      opacity:0;
-    }
-    100%{
-      opacity: 1;
-      display: flex;
-    }
-    
-  }
 
-  @keyframes topCategAnimNoHover {
-    0%{
-      opacity:1;
-    }
-    100%{
-      opacity: 0;
 
-    }
-    
-  }
-
-  .topCategShowShopNow+div{
-    transition: all 2s ease-in-out;
-    animation: topCategAnimNoHover 2s linear 1 alternate-reverse;
-    
-  }
-
-  .topCategShowShopNow:hover+div{
-    display: flex;
-    transition: all 2s ease-in-out;
-    animation: topCategAnim 2s linear infinite alternate;
-    background-color: black;
-    
-
-  }
-
- 
-
+  
+  
+  
   /* Perk card animation and transition */
   @keyframes perkCardAnimationHover {
     0%{
-    opacity: 0;
+      opacity: 0;
     }
     
     100%{
-    opacity: 1;
+      opacity: 1;
     }
     
   }
-
-
+  
+  
+  
   @keyframes perkCardAnimationNoHover {
     0%{
-    opacity: 1;
+      opacity: 1;
     }
     
     100%{
-    opacity: 0;
+      opacity: 0;
+    }
+    
+  }
+  
+  @keyframes toggleShopNowNoHover {
+    0%{
+      opacity: 1;
+    }
+    
+    100%{
+      opacity: 0;
     }
     
   }
 
 
+  @keyframes toggleShopNow {
+    0%{
+      opacity: 0;
+    }
+    
+    100%{
+      opacity: 1;
+    }
+    
+  }
+  
+
+  
+  
+  
   @keyframes forContinuingBtn {
     0%{
       opacity: 1;
@@ -110,8 +103,20 @@
       
     }
   }
-  
 
+  .showShopNow{
+    
+    transition: all 1s ease-out;
+    animation: toggleShopNowNoHover 1s linear 1 alternate;
+  }
+
+
+  .showShopNow:hover{
+    transition: all 1s ease-out;
+    animation: toggleShopNow 1s linear 1 alternate;
+    opacity: 1;
+  }
+  
 
 
   .perkCardTransition div:nth-child(2) img{

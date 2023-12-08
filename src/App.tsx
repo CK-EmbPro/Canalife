@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './components/Footer'
 import GettingKnowUs from './components/GettingKnowUs'
 import Navbar from './components/Navbar'
 import Ordering from './components/Ordering'
@@ -13,6 +14,7 @@ const App = () => {
       <GettingKnowUs/>
       <TopPerks/>
       <Ordering/>
+      <Footer/>
     </div>
   )
 }

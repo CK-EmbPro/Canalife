@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#EEEEEE] flex  gap-[12%] items-center px-[80px] font-[poppins] sticky top-0 pt-[30px] pb-[13px] z-10">
+    <div className="bg-[#EEEEEE] flex  gap-[12%] items-center px-[60px] font-[poppins] sticky top-0 pt-[30px] pb-[13px] z-10">
       <div className=" w-[17%]">
         <svg
           width="212"
@@ -92,10 +92,10 @@ const Navbar = () => {
         <a href="#">MUSHROOM</a>
       </div>
 
-      <div className="flex gap-[4%]  items-center   w-[80vw]">
-        <div className="flex relative h-[30px] w-[140%]   bg-white px-2 py-1 rounded-[10px]">
+      <div className="flex gap-[4%]  items-center   w-[82vw]">
+        <form className="flex relative h-[30px] w-[190%]   bg-white px-2 py-1 rounded-[10px]">
           <input
-            className="h-full w-full outline-none -none "
+            className="h-full w-full outline-none -none placeholder:text-[#d4d4d4] text-[.8em] "
             type="text"
             placeholder="what do you want"
           />
@@ -103,9 +103,9 @@ const Navbar = () => {
             className="absolute top-[6px] left-[90%] rotate-90 text-[#F47820]"
             icon="iconamoon:search-thin"
           />
-        </div>
+        </form>
 
-        <div className=" bg-black w-[34%] py-[2px] flex items-center justify-between px-3 rounded-[10px] hover:cursor-pointer">
+        <div className=" bg-black w-[48%] py-[2px] flex items-center  gap-3 px-[18px] rounded-[10px] hover:cursor-pointer">
           <svg
             className=" text-black"
             width="14"
@@ -128,10 +128,10 @@ const Navbar = () => {
             />
           </svg>
 
-          <p className="text-white text-[.8vw] font-medium py-[4px] ">Sign in</p>
+          <p className="text-white text-[.9vw] font-medium py-[4px] ">Sign in</p>
         </div>
 
-        <div className="  w-[70px] h-[27px] flex items-center justify-center p-[.5px] rounded-[8px]  bg-[#F47820] hover:cursor-pointer ">
+        <div className="  w-[85px] h-[27px] flex items-center justify-center p-[.5px] rounded-[8px]  bg-[#F47820] hover:cursor-pointer ">
           <svg
             width="21"
             height="18"
@@ -146,7 +146,7 @@ const Navbar = () => {
           </svg>
         </div>
 
-        <div className="  w-[70px] h-[27px] flex items-center justify-center p-[.5px] rounded-[8px]  bg-[#F47820] hover:cursor-pointer  ">
+        <div className="  w-[85px] h-[27px] flex items-center justify-center p-[.5px] rounded-[8px]  bg-[#F47820] hover:cursor-pointer  ">
           <svg
             width="22"
             height="19"
